@@ -16,3 +16,8 @@ OpenPetra provides an easy to use software system for the administration of non-
 
    howtos/index
 
+.. toctree::
+   :maxdepth: 2
+
+   contributions/index
+
