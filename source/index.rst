@@ -1,9 +1,9 @@
-.. OpenPetra documentation documentation master file, created by
+.. OpenPetra documentation master file, created by
    sphinx-quickstart on Wed Dec 17 10:16:19 2014.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to OpenPetra documentation's documentation!
+Welcome to OpenPetra's documentation!
 ===================================================
 
 Contents:
