@@ -1,22 +1,18 @@
-.. OpenPetra documentation master file, created by
-   sphinx-quickstart on Wed Dec 17 10:16:19 2014.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
-
 Welcome to OpenPetra's documentation!
 ===================================================
 
-Contents:
+OpenPetra is a Free Administration Software for Non-Profits, it is published as an open-source project under GPL licence.
+
+OpenPetra provides an easy to use software system for the administration of non-profit organisations.
+
 
 .. toctree::
    :maxdepth: 2
 
+   user-manual/index
 
+.. toctree::
+   :maxdepth: 2
 
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+   howtos/index
 
