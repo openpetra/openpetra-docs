@@ -3,7 +3,7 @@ Contribute to the documentation
 
 You are very welcome to fix any bugs or sentences that are not clear enough. New chapters and HowTos are also very welcome!
 
-We use `Sqhinx <http://sphinx-doc.org>`_ to render the documentation to various output formats: HTML, Windows Help, PDF, ...
+We use `Sqhinx <http://sphinx-doc.org>`_ to render the documentation to HTML, but various other output formats are possible as well: Windows Help, PDF, ...
 
 The documentation is written in `reStructuredText <http://docutils.sf.net/rst.html>`_.
 

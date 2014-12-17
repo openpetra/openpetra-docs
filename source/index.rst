@@ -5,7 +5,6 @@ OpenPetra is a Free Administration Software for Non-Profits, it is published as 
 
 OpenPetra provides an easy to use software system for the administration of non-profit organisations.
 
-
 .. toctree::
    :maxdepth: 2
 
@@ -20,4 +19,8 @@ OpenPetra provides an easy to use software system for the administration of non-
    :maxdepth: 2
 
    contributions/index
+
+This documentation is also available in other languages:
+
+* german documentation: https://handbuch.openpetra.de
 
