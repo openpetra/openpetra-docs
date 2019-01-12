@@ -1,30 +1,19 @@
 .. _howtos:
 
-===========
-HowTos
-===========
+================================
+Step by step How To instructions
+================================
 
 .. NOTE::
 
-    This is still work in progress...
+    Work in progress: This page is not finished yet...
 
-Import existing addresses and partner details
----------------------------------------------
+.. toctree::
+    :maxdepth: 1
 
-
-Manually create new addresses
------------------------------
-
-
-Create your first financial ledger
-----------------------------------
-
-
-Import donations from a bank statement
---------------------------------------
-
-
-Backup and Restore your OpenPetra database
-------------------------------------------
+    initial-instance-setup
+    initial-finance-setup
+    initial-partner-setup
+    reset-database
 
 
