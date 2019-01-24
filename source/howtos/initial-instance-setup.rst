@@ -64,7 +64,7 @@ Here you enter the user name, the E-Mail address, the firstname and the surname 
 
 Per default the modules *Finance - Basic User*, *Finance - Reporting User*, *Partner User Level Access* are already selected. For the bookkeeper in your team you should also select *Finance - Intermediate User* and *Finance - Advanced User*.
 
-An E-Mail will be sent to the new user to inform this person about the access to OpenPetra and the generated password. This password should be changed on the first sign in.
+An E-Mail will be sent to the new user to inform this person about the access to OpenPetra and with a link to set the password for that user.
 
 .. _create-a-ledger:
 
