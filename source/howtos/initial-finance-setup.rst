@@ -8,6 +8,8 @@ Configuration of a fresh ledger
 
 We assume that the ledger has already been set up as described in :ref:`create-a-ledger`.
 
+.. _configure-chart-of-accounts:
+
 Specify a Chart of Accounts
 ===========================
 
@@ -291,6 +293,7 @@ This is how the example chart of accounts look like in the text file:
                                5600:{shortdesc=ICH Settlement Transfers}
                                5601:
 
+.. _configure-cost-centres:
 
 Configure the Cost Centres
 ==========================
@@ -319,6 +322,8 @@ This is how the initial cost centres look like in the text file:
            1000S:{descr=My Charity}
                1000:{descr="My Charity, General"}
            ILT:{descr=Inter Ledger Transfer Total}
+
+.. _configure-motivations:
 
 Configure Motivations
 =====================
