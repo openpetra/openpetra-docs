@@ -16,5 +16,4 @@ Step by step How To instructions
     initial-partner-setup
     reset-database
     finance-donations
-
-
+    partner
