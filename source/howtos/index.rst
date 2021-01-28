@@ -16,4 +16,4 @@ Step by step How To instructions
     initial-contact-setup
     reset-database
     finance-donations
-    partner
+    contact
