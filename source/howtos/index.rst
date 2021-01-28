@@ -13,7 +13,7 @@ Step by step How To instructions
 
     initial-instance-setup
     initial-finance-setup
-    initial-partner-setup
+    initial-contact-setup
     reset-database
     finance-donations
 

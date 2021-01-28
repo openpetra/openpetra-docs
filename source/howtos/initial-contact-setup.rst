@@ -1,5 +1,5 @@
 ===================================
-Configuration of the partner module
+Configuration of the contact module
 ===================================
 
 .. NOTE::
@@ -11,11 +11,11 @@ Maintain Categories
 
 Categories are like special types that you can assign to your contacts and put them into groups.
 
-For example you can have a category called SPONSOR, which you assign to all your partners that are sponsoring a child or project.
+For example you can have a category called SPONSOR, which you assign to all your contacts that are sponsoring a child or project.
 
 Or you have a category for BOARDMEMBER, or WORKER.
 
-In the sidebar menu go to *Partner*, select *Setup*, and then select *Configuration of Categories*.
+In the sidebar menu go to *Contact*, select *Setup*, and then select *Configuration of Categories*.
 
 .. _figure-category_list:
 
@@ -44,7 +44,7 @@ You need to configure the type or name of such a publication.
 
 It can be an annual report, or a recurring newsletter.
 
-In the sidebar menu go to *Partner*, and select *Setup*, and then select *Configuration of Subscriptions*.
+In the sidebar menu go to *Contact*, and select *Setup*, and then select *Configuration of Subscriptions*.
 
 .. _figure-publication_list:
 
@@ -81,10 +81,10 @@ The order of the columns can be random, but the caption of the column is importa
 
 You have to save the file in the file format CSV. We currently only support the semicolon (;) as separator.
 
-Now go in the side bar menu and click on *Partner*, then select *Partner*, and select *Import partners*.
+Now go in the side bar menu and click on *Contact*, then select *Contact*, and select *Import contacts*.
 
-Then click the button with the label *Import partners from CSV file*.
+Then click the button with the label *Import contacts from CSV file*.
 
 You will get a dialog where you have to select the file that you just saved.
 
-After a successful import you can see the list of your partners at *Partner* / *Partner* / *Maintain Partners*.
+After a successful import you can see the list of your contacts at *Contact* / *Contact* / *Maintain Contacts*.
