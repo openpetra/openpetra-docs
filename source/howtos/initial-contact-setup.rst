@@ -88,6 +88,7 @@ You can find a simple LibreOffice Calc sample file here: https://github.com/open
 You can find a simple Excel sample file here: https://github.com/openpetra/openpetra/raw/test/demodata/partners/samplePartnerImport.xlsx
 
 The order of the columns can be random, but the caption of the column is important.
+You can also leave out some columns (eg. for consent, or categories).
 
 We currently support the following columns with these captions:
 
@@ -101,9 +102,14 @@ We currently support the following columns with these captions:
 * Email
 * Mobile: this is the mobile phone number
 * Phone: this is the landline phone number
+* Category, Category1, Category2, Category3, Category4: Categories/Tags for this contact, eg. DONOR or MEMBER or BOARDMEMBER
 * IBAN, IBAN1, IBAN2, IBAN3, IBAN4: bank account IBAN numbers
-* TODO: Consent
-* TODO: Categories
+* Consent: ConsentChannel1, ConsentWhen1, ConsentType1, ConsentPurpose1, and with additional numbers (ConsentChannel2, ConsentWhen2, etc) for more consent.
+
+   * ConsentChannel: How was the consent declared to us? Available values are defined in the setup in OpenPetra at Contacts / Configuration / Consent Channels: eg. CONVERSATION, EMAIL, LETTER, PHONE
+   * ConsentWhen: The date, when the consent has been declared to us.
+   * ConsentType: Which part of the contact is covered by this consent? Available values: ADDRESS (ie. the postal address), EMAIL (ie. E-Mail address), PHONE (ie. the landline phone number), MOBILE (ie. the mobile phone number)
+   * ConsentPurpose: For which purpose do we have this consent. Available values are defined in the setup in OpenPetra at Contacts / Configuration / Consent Purposes: eg. GR (ie. donations), NEWSLETTER, PR (ie. public relations).
 
 Import contacts
 ---------------
