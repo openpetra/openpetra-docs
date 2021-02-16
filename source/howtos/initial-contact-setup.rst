@@ -95,6 +95,7 @@ We currently support the following columns with these captions:
 * Title
 * FirstName
 * FamilyName
+* OrganisationName: In one line, you can either have Title/FirstName/FamilyName, or OrganisationName. A contact of type Organisation will be created if this column has a value in the current line.
 * Street
 * PostCode
 * City
