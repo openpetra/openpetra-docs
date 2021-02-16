@@ -32,6 +32,8 @@ So you go in your web browser to the page of your OpenPetra instance, and you si
 
    Sign in with user ``SYSADMIN``
 
+.. _create_nonadmin_user:
+
 Create a non-administrative user
 ================================
 
