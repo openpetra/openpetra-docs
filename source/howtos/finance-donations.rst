@@ -112,22 +112,34 @@ Process Donations semi-automatically from bank statement
 
 It is advisable to not enter each donation manually.
 
-Your bank probably offers to download the bank statement as a CSV or CAMT file.
+Your bank probably offers to download the bank statement as a CSV or CAMT file. Perhaps even MT940 files are still being offered.
 
-At the moment OpenPetra only supports processing bank statements as CSV files,
-but the support for CAMT is basically finished, and can be activated if needed.
+OpenPetra supports processing bank statements as CSV files or MT940 files.
+The support for CAMT files is also available, and it is recommended since that is future proof.
+Both the import of CAMT.052 and also CAMT.053 is supported, and you can even import ZIP files containing multiple CAMT files.
 
-At the first run you need to specify some settings, because each bank has a different format for their CSV Fi.e.
-Just click on the button 'Preset'.
+
+.. _figure-bankimport_import:
+
+.. figure:: images/bankimport_import.png
+   :scale: 50%
+
+   Import of CSV file, CAMT file or MT940 file
+
+Import of CSV files
+-------------------
+
+For the import of CAMT or MT940 files you don't need to specify any settings, so that is much easier and therefore recommended to use CAMT files.
+
+For the import of CSV files you must click the button 'Presets for CSV', and you will get to this form.
+You will only need to specify these settings once for the first run, because each bank has a different format for their CSV File.
 
 .. _figure-bankimport_settings:
 
 .. figure:: images/bankimport_settings.png
    :scale: 50%
 
-   Settings for bank import
-
-The bank account is that account which receives all the donations, and the bank statement is about this account.
+   Settings for bank import from CSV files
 
 Only start evaluation lines below this line: This describes the content of the line, that is above the actual transactions.
 So this is usually the line with the captions of the columns.
@@ -172,7 +184,25 @@ This is how an example file can look like: (you can download it here: https://gi
    "30.07.2019";"30.07.2019";"Arno Grosse SEPA-ÜBERWEISUNG SVWZ+ RINP Dauerauftrag S pende EREF+ 000000000000000 00002";"10,00";"EUR";""
    "* noch nicht ausgeführte Umsätze"
 
-You have the choice to set the 'Status', whether you want to see all transactions, or only matched donations, etc.
+Example file for CAMT
+---------------------
+
+An example CAMT file can be downloaded here: https://github.com/openpetra/openpetra/blob/master/csharp/ICT/Testing/lib/MFinance/server/BankImport/camt_testfile.52.xml
+
+
+Example file for MT940
+----------------------
+
+An example MT940 file can be downloaded here: https://github.com/openpetra/openpetra/blob/master/csharp/ICT/Testing/lib/MFinance/server/BankImport/mt940test.sta
+
+
+Import of bank statements
+-------------------------
+
+For all file formats this is true: You must select the bank account, before clicking the 'Import' button.
+The bank account is that account which receives all the donations, and the bank statement is about this account.
+
+After importing the file you have the choice to set the 'Status', whether you want to see all transactions, or only matched donations, etc.
 Then click the button 'Display'.
 
 In the example, that would look like this:
@@ -183,6 +213,9 @@ In the example, that would look like this:
    :scale: 50%
 
    View of the bank transactions
+
+Edit the transactions
+---------------------
 
 You can edit a transaction, and assign whether this transaction should be processed as a donation.
 You assign the donor, and the purpose of the donation.
